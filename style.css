@@ -110,9 +110,13 @@ body {
 }
 
 /* Show the default tab */
-#research {
-    display: block;
-}
+*/#research {              */
+  */  display: block;      */
+*/}                        */
+
+
+
+
 /* ------------------------------ */
 
 /* Experience Section Styling */

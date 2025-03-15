@@ -61,3 +61,56 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+/* ------------------------------ */
+
+/* Basic Reset */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Tab Styling */
+.tabs {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.tabs button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 20px;
+    transition: 0.3s;
+    color: white;
+    font-size: 16px;
+}
+
+.tabs button:hover {
+    background-color: #555;
+}
+
+.tabs button.active {
+    background-color: #007BFF;
+}
+
+/* Tab Content Styling */
+.tabcontent {
+    display: none;
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Show the default tab */
+#research {
+    display: block;
+}
+/* ------------------------------ */

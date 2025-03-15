@@ -147,3 +147,23 @@ body {
     margin-bottom: 10px;
     line-height: 1.6;
 }
+
+/* Presentations Section Styling */
+.presentation-item {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.presentation-item h3 {
+    margin-top: 0;
+    color: #007BFF;
+}
+
+.presentation-item p {
+    margin: 5px 0;
+    color: #555;
+}
+

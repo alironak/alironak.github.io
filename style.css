@@ -114,3 +114,32 @@ body {
     display: block;
 }
 /* ------------------------------ */
+
+/* Experience Section Styling */
+.experience-item {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.experience-item h3 {
+    margin-top: 0;
+    color: #007BFF;
+}
+
+.experience-item p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.experience-item ul {
+    margin: 10px 0 0 20px;
+    padding: 0;
+}
+
+.experience-item ul li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}

@@ -197,3 +197,57 @@ body {
     text-decoration: underline;
 }
 
+/* OASiS Program Section Styling */
+.oasis-item {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.oasis-item h3 {
+    margin-top: 0;
+    color: #007BFF;
+}
+
+.oasis-item h4 {
+    margin-top: 20px;
+    color: #333;
+}
+
+.oasis-item ul {
+    margin: 10px 0 0 20px;
+    padding: 0;
+}
+
+.oasis-item ul li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.university-logos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.university-logo {
+    text-align: center;
+}
+
+.university-logo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.university-logo p {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #555;
+}
+
+
